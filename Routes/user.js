@@ -141,7 +141,7 @@ router.post(
         from: process.env.EMAIL,
         to: email,
         subject: "Forgot Password",
-        text: `Click on this link to continue: https://banao-mern-ayush.netlify.app/resetpassword?token=${Passtoken}`,
+        text: `Click on this link to continue: https://banao-mern-ayush.netlify.app/#/resetpassword?token=${Passtoken}`,
       };
 
       try {
